@@ -1,12 +1,75 @@
-# React + Vite
+# 🦷 Facilita Odonto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Facilita Odonto** é uma aplicação desenvolvida para auxiliar profissionais da odontologia no **controle e cálculo de custos de procedimentos**, com foco em **praticidade, organização e eficiência no dia a dia clínico**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Objetivo
 
-## Expanding the ESLint configuration
+O sistema tem como principal finalidade **calcular automaticamente o custo de um procedimento odontológico** com base nos **produtos utilizados**, considerando a **quantidade real aplicada** (em gramas, mililitros ou unidades) e o **valor pago por cada produto**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Isso permite que dentistas tenham mais controle sobre:
+
+- **Rentabilidade de cada atendimento**
+- **Otimização de recursos**
+- **Transparência na precificação**
+- **Gestão de estoque baseada no uso real**
+
+---
+
+## 🚀 Funcionalidades
+
+- ✅ Adição de produtos com:
+  - Nome
+  - Preço total pago
+  - Quantidade total adquirida (g, ml, unid)
+  - Quantidade usada no procedimento
+- ✅ Cálculo automático do custo proporcional de cada item
+- ✅ Exibição do custo total do procedimento
+
+---
+
+## 💡 Exemplos de uso
+
+**Cenário real:**
+> O profissional comprou uma resina de R$ 600, contendo 3 seringas de 4g. Ao usar 2mg de resina em um procedimento, o sistema calcula o custo proporcional automaticamente.
+
+---
+
+## 🛠 Tecnologias utilizadas
+
+- [React](https://reactjs.org/)
+- [PrimeReact](https://primereact.org/)
+- [Swiper](https://swiperjs.com/react)
+- [SweetAlert2](https://sweetalert2.github.io/)
+
+---
+
+## 👩‍⚕️ Público-alvo
+
+- Cirurgiões-dentistas
+- Clínicas odontológicas
+- Estudantes de Odontologia
+- Profissionais que desejam melhorar a gestão dos custos clínicos
+
+---
+
+## 📈 Futuras melhorias
+
+- Relatórios financeiros por período
+- Exportação de relatórios
+- Modo escuro
+
+---
+
+## ✨ Deploy
+
+[🧪 *link de deploy*]
+
+---
+
+## 👩‍💻 Desenvolvido por
+
+Isis Marieli — Desenvolvedora Front-End, acadêmica de Análise e Desenvolvimento de Sistemas.
+---
+

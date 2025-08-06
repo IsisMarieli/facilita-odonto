@@ -32,7 +32,15 @@ Isso permite que dentistas tenham mais controle sobre:
 ## 💡 Exemplos de uso
 
 **Cenário real:**
-> O profissional comprou uma resina de R$ 600, contendo 3 seringas de 4g. Ao usar 2mg de resina em um procedimento, o sistema calcula o custo proporcional automaticamente.
+> O profissional adquiriu uma resina no valor de R$ 600, contendo 3 seringas de 4g cada (ou seja, 12g no total).
+
+ 1 - Preencher em Quantidade: 12 (total em gramas disponíveis no lote – 3 seringas x 4g);
+
+ 2 - Informar em Uso no Procedimento: 2 (correspondente aos 2g utilizados);
+
+ 3 - Clicar no botão “Adicionar ao Procedimento”;
+
+ ✅ O sistema calcula automaticamente o custo proporcional da resina utilizada com base no valor total do produto e na quantidade informada, somando ao custo total do procedimento.
 
 ---
 
@@ -64,7 +72,7 @@ Isso permite que dentistas tenham mais controle sobre:
 
 ## ✨ Deploy
 
-[🧪 *link de deploy*]
+[🧪 *[link de deploy](https://isismarieli.github.io/facilita-odonto/)*]
 
 ---
 
